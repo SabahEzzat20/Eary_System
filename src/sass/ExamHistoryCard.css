@@ -1,0 +1,26 @@
+.exam-card {
+  width: 900px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 50px;
+}
+.exam-card .exam-details {
+  width: 500px;
+  height: 100px;
+  padding: 35px;
+  margin: 50px;
+  font-size: 20px;
+}
+.exam-card .exam-name {
+  background-color: rgb(247, 255, 133);
+  width: 20%;
+  float: right;
+  font-size: 23px;
+  text-align: center;
+  padding: 20px;
+  border-bottom-left-radius: 50px;
+}/*# sourceMappingURL=ExamHistoryCard.css.map */

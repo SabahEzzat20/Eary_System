@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-message {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
+    text-align: center;
+    width: 470px;
+    height: 270px;
+    form{
+        margin-top: 70px;
+        margin-left: 20px;
+        label{
+            color: rgb(104, 102, 102);
+            font-size: 23px;
+            
+        }
+        #exam-name{
+            margin: 8px;
+            border: none;
+            width: 140px;
+            padding: 10px;
+            font-size: 19px;
+            background-color: rgb(243, 243, 243);
+            border-radius: 5px;
+            color: #ac1e1c;
+            &:focus{
+                outline: none;
+            }
+        }
+    
+            .error-message {
+                    color: #ac1e1c;
+                    font-size: 1rem;
+            }
+        
+    
+        .submit-div{
+            .submit-button{
+                margin-top: 30px;
+                border: none;
+                width: 140px;
+                padding: 10px;
+                font-size: 19px;
+                background-color: #ac1e1c;
+                border-radius: 5px;
+                color: white;
+                transition: transform .6s;
+                &:hover {
+                        transform: scale(1.1);
+                    }
+                cursor: pointer;
+                }
+        }
+    }
+    button {
+    background-color: #ac1e1c;
+    color: white;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    }
+}

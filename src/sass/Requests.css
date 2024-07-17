@@ -1,0 +1,43 @@
+.table-container {
+  width: 90%;
+  margin: 50px;
+}
+.table-container .create-account-div {
+  margin-left: 95%;
+  margin-bottom: 30px;
+}
+.table-container table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.table-container table tr {
+  border-bottom: 1px solid #7dbaff;
+}
+.table-container table tr th, .table-container table tr td {
+  padding: 0.5rem;
+  text-align: center;
+}
+.table-container table tr th {
+  background-color: #7dbaff;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+}
+.table-container table audio {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.table-container table td {
+  font-size: 20px;
+}
+.table-container table td button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+.table-container table td button:hover {
+  color: red;
+  cursor: pointer;
+}/*# sourceMappingURL=Requests.css.map */

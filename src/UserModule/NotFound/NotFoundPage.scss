@@ -1,0 +1,27 @@
+@import '../../Sass/colors';
+.notfoundcontainer{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .notfoundbody{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            border: none;
+            color: white;
+            background-color: $second-basic-color;
+            border-radius: 5px;
+            padding: 10px;
+            &:hover{
+                background-color: #C54B43;
+            }
+        }
+        img{
+            width: 280px;
+            height: 280px;
+        }
+    }
+}

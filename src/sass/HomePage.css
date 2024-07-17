@@ -1,0 +1,44 @@
+.admin-container {
+  background-color: transparent;
+  display: flex;
+  height: 600px;
+}
+.admin-container .circle-div {
+  background-color: rgb(230, 230, 230);
+  width: 870px;
+  height: 870px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -2;
+  margin-top: -10%;
+  margin-left: -10%;
+}
+.admin-container .circle-div .admin-instructions {
+  margin-top: 300px;
+  margin-left: 200px;
+  font-size: 34px;
+}
+.admin-container .circle-div .admin-instructions p {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(77, 165, 224);
+}
+.admin-container .circle-div .admin-instructions .paragraphs-container {
+  padding: 5px;
+  margin: 18px;
+}
+.admin-container .circle-div .admin-instructions .paragraphs-container p {
+  font-size: 24px;
+  color: rgb(82, 82, 82);
+}
+.admin-container .circle-div .admin-instructions .paragraphs-container ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.admin-container .right-background {
+  margin-left: 750px;
+}
+.admin-container .right-background img {
+  width: 550px;
+  height: 600px;
+}/*# sourceMappingURL=HomePage.css.map */

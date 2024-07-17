@@ -1,0 +1,54 @@
+$primary-color: #7a7a7a;
+$secondary-color: #ffffff;
+$title-color: rgb(44, 44, 44);
+
+.Instru-container {
+    display: flex;
+    background-color: $secondary-color;
+    margin: 26px;
+    height: 500px;
+    .text{
+        padding: 10px;
+        margin: 60px;
+        span{
+            color: $title-color;
+            font-size: 30px;
+            
+        }
+    }
+    img {
+        width: 20%;
+        height: 470px;
+        margin-left: 70px;
+        
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        // color: $primary-color;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .start-exam-button{
+        border: none;
+        background-color: #ac1e1c;
+        font-size: 22px;
+        border-radius: 5px;
+        color: white;
+        width: 250px;
+        height: 63px;
+        cursor: pointer;
+        margin: 55px 0 0 600px;
+        transition: transform .7s;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        &:hover {
+                transform: scale(1.1);
+            }
+        
+    }
+}

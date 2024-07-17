@@ -1,0 +1,46 @@
+.register-body {
+  width: 100%;
+  height: 657px;
+  background-image: linear-gradient(to right top, #ffffff, #80a2ff, #4389c5, #6699db, #4052ec);
+}
+.register-body .form-container {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  transform: translateY(75px);
+  display: flex;
+  background-color: white;
+}
+.register-body .photo-container {
+  width: 57%;
+  height: 100%;
+  margin-top: 100px;
+}
+.register-body .photo-container p {
+  padding-left: 270px;
+  padding-top: 80px;
+  font-size: 40px;
+  color: #361916;
+}
+.register-body .register-container {
+  width: 43%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.register-body .register-container .authentication-part {
+  width: 100%;
+  height: 79%;
+}
+.register-body .register-container .switchbetweensignupandloginbutton {
+  float: right;
+  margin: 15px;
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-decoration: underline;
+}/*# sourceMappingURL=Authentication.css.map */

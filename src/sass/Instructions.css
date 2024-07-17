@@ -1,0 +1,45 @@
+.Instru-container {
+  display: flex;
+  background-color: #ffffff;
+  margin: 26px;
+  height: 500px;
+}
+.Instru-container .text {
+  padding: 10px;
+  margin: 60px;
+}
+.Instru-container .text span {
+  color: rgb(44, 44, 44);
+  font-size: 30px;
+}
+.Instru-container img {
+  width: 20%;
+  height: 470px;
+  margin-left: 70px;
+}
+.Instru-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.Instru-container .start-exam-button {
+  border: none;
+  background-color: #ac1e1c;
+  font-size: 22px;
+  border-radius: 5px;
+  color: white;
+  width: 250px;
+  height: 63px;
+  cursor: pointer;
+  margin: 55px 0 0 600px;
+  transition: transform 0.7s;
+}
+.Instru-container .start-exam-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.Instru-container .start-exam-button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Instructions.css.map */

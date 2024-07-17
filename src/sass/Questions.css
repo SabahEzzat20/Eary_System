@@ -1,0 +1,31 @@
+.exam-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.exam-page-container .test-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+  height: 260px;
+  z-index: 1;
+}
+.exam-page-container .test-container p {
+  font-size: 30px;
+}
+.exam-page-container .test-container ul {
+  list-style: none;
+  padding: 40px;
+  font-size: 20px;
+}
+.exam-page-container .test-container ul li {
+  padding: 9px;
+}
+.exam-page-container .question-mark-image {
+  margin-left: -200px;
+  margin-top: 150px;
+}/*# sourceMappingURL=Questions.css.map */

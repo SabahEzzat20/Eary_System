@@ -1,0 +1,49 @@
+.mainHeader{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: white;
+    .header-title {
+        display: flex;
+        p{
+            font-size: 36px;
+            color: rgb(0, 0, 0);
+            
+        }
+        img{
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+            padding-right: 7px;
+            
+        }
+    }
+    nav{
+        width: 80%;
+        
+        ul{
+            list-style-type: none;
+            float: right;
+            li{
+                display: inline-block;
+                position: relative;
+                padding: 10px 15px;
+                font-size: 25px;
+                height: 40px;
+                color: rgb(0, 0, 0);
+                &:hover{
+                    border-bottom: 3px solid rgb(0, 195, 255);
+                }
+                a {
+                    display: inline;
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    &:hover{
+                        color: rgb(0, 195, 255);
+                        cursor: pointer;
+            }
+        }
+        }       
+    }
+}}

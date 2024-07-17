@@ -1,0 +1,197 @@
+$new-question-color: #0084ff;
+$new-question-color-dark: #58a4d6;
+$new-question-color-light: #d0e8ff;
+$new-question-color-error: #f44336;
+$cards-background: white;
+$width-of-cards-in-page: 1200px;
+$border-radius-of-cards: 25px;
+$cards-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+$text-field-color: rgb(117, 117, 117);
+%card{
+    background-color: $cards-background;
+    border-radius: $border-radius-of-cards;
+    box-shadow: $cards-box-shadow;
+}
+    .container{
+        @extend %card;
+        width: $width-of-cards-in-page;
+        margin: auto;
+        display: flex;
+        .image-container{
+            margin: auto;
+            img{
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .guidelines-div{
+            margin: auto;
+            color: grey;
+            ol {
+                li{
+                    font-size: 26px;
+                }
+            }
+            p{
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: underline;
+                margin-left: -60px;
+            }
+        }
+    }
+    .new-question-div {
+        .question-container {
+            @extend %card;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 1160px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            .question-details-div{
+                display: flex;
+                margin: 5px;
+            }
+            .enter-answer-textfield{
+                width: 60px;
+                height: 19px;
+                font-size: 20px;
+                background-color: rgb(238, 238, 238);
+                margin-right: 7px;
+            }
+            .add-answer-button{
+                background-color: $new-question-color;
+                padding: 10px 20px;
+                margin-top: 20px;
+                border: none;
+                border-radius: 4px;
+                height: 40px;
+                color: #fff;
+                font-size: 16px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $new-question-color-dark;
+                }
+            }
+            .drag-area {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                height: 65px;
+                border: 2px dashed #ccc;
+                border-radius: 40px;
+                margin-top: 26px;
+                margin-bottom: 20px;
+                .input-audio{
+                    cursor: pointer;
+                    font-size: 20px;
+                    .browse-div{
+                        color: #2196f3;
+                    }
+                    input[type='file']{
+                        display: none;
+                    }
+                }
+                
+                cursor: pointer;
+                &.file-uploaded {
+                    border-color: $new-question-color;
+                }
+                
+                .file-preview {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: $new-question-color-light;
+                    border-radius: 40px;
+                    button {
+                        background-color: $new-question-color-light;
+                        border: none;
+                        color: rgb(216, 216, 216);
+                        margin-top: 5px;
+                        &:hover {
+                            color: red;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        input[type='number']{
+            border: 1px solid rgb(216, 216, 216);
+            outline: none;
+            width: 60px;
+            font-size: 24px;
+            padding: 5px;
+            margin: 3px;
+            color: grey;
+        }
+        input[type='text'] {
+            width: 75%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            outline: none;
+            color: $text-field-color;
+        }
+        .question-text-field {
+            padding: 10px;
+            font-size: 20px;
+            transition: all 0.3s ease-in-out;
+            background-color: #f5f5f5;
+        }
+        label{
+            font-size: 26px;
+            font-weight: 550;
+            margin-right: 10px;
+            color: rgb(75, 75, 75);
+
+        }
+        ul{
+            list-style: none;
+            li {
+                margin: 3px;
+                font-size: 24px;
+                color: $text-field-color;
+                input[type='radio'] {
+                    margin-right: 5px;
+                }
+            }
+        }
+        input[type='submit']{
+            padding: 10px 20px;
+            margin-top: 20px;
+            margin-left: 150px;
+            border: none;
+            border-radius: 5px;
+            background-color: $new-question-color;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            &:hover {
+                background-color: $new-question-color-dark;
+            }
+        }
+        .answers-list{
+            display: block;
+            width: 100%;
+            .delete-button{
+                background-color: transparent;
+                color: #ffffff;
+                font-weight: bolder;
+                background-color: red;
+                border: none;
+                width: 25px;
+                height: 25px;
+                float: right;
+                border-radius: 5px;
+            }
+        }
+    }
+    }

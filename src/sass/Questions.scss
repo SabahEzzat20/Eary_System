@@ -1,0 +1,33 @@
+.exam-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .test-container{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 70px;
+        background-color: rgb(238, 238, 238);
+        width: 400px;
+        height: 260px;
+        z-index: 1;
+        p{
+            font-size: 30px;
+            // font-weight: bold;
+        }
+        ul{
+            list-style: none;
+            padding: 40px;
+            font-size: 20px;
+            li{
+                padding: 9px;
+            }
+
+        }
+    }
+    .question-mark-image{
+        margin-left: -200px;
+        margin-top: 150px;
+    }
+}

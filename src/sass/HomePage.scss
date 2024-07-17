@@ -1,0 +1,49 @@
+.admin-container{
+    background-color: transparent;
+    display: flex;
+    height: 600px;
+    .circle-div{
+        background-color: rgb(230, 230, 230);
+        width: 870px;
+        height: 870px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -2;
+        margin-top: -10%;
+        margin-left: -10%;
+        .admin-instructions{
+            margin-top: 300px;
+            margin-left: 200px;
+            font-size: 34px;
+            
+            p{
+                font-size: 36px;
+                font-weight: bold;
+                color: rgb(77, 165, 224);            
+            }
+            .paragraphs-container{
+                
+                    padding: 5px;
+                    margin: 18px;
+                p{
+                    font-size: 24px;
+                    color: rgb(82, 82, 82);
+                }
+                
+                    ul{
+                        list-style-type: square;
+                        list-style-position: inside;
+                        
+                    }
+                
+            }
+        }
+    }
+    .right-background{
+        margin-left: 750px;
+        img{
+            width: 550px;
+            height: 600px;
+        }
+    }
+}

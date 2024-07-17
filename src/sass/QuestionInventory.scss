@@ -1,0 +1,48 @@
+.table-container{
+  width: 90%;
+  margin: 50px;
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    tr{
+      border-bottom: 1px solid#7dbaff;
+      th, td {
+      
+        padding: 0.5rem;
+        text-align: center;
+      }
+      th {
+        background-color: #7dbaff;
+        font-weight: bold;
+        font-size: 28px;
+        color: white;
+      }
+    }
+    audio {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+    td{
+      font-size: 20px;
+      button{
+        border: none;
+        background-color: transparent;
+        font-weight: bold;
+        &:hover{
+          color: red;
+          cursor: pointer;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+          &:hover{
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}

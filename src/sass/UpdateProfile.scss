@@ -1,0 +1,54 @@
+.updateprofilecontainer{
+    background-image: url("../assets/images/update.jpg");
+    background-size: cover;
+    .UserProfile {
+        width: 20%;
+        height: 577px;
+        background-color: transparent;
+        padding: 40px;
+        margin-left: 900px;
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        label {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            display: flex;
+    }
+        input {
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 14px;
+            color: #4d93ee;
+            &:focus {
+                outline: none;
+                box-shadow: 0px 0px 4px #333;
+                }
+    }
+        button[type="submit"] {
+            background-color: #0077ff;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            width: 38%;
+            text-align:center;
+            margin-left: 34%;
+            margin-top: 30px;
+    }
+        button[type="submit"]:hover {
+            background-color: #0f4791;
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    }
+}

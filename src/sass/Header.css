@@ -1,0 +1,47 @@
+.mainHeader {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  background-color: white;
+}
+.mainHeader .header-title {
+  display: flex;
+}
+.mainHeader .header-title p {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+}
+.mainHeader .header-title img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  padding-right: 7px;
+}
+.mainHeader nav {
+  width: 80%;
+}
+.mainHeader nav ul {
+  list-style-type: none;
+  float: right;
+}
+.mainHeader nav ul li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 15px;
+  font-size: 25px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+}
+.mainHeader nav ul li:hover {
+  border-bottom: 3px solid rgb(0, 195, 255);
+}
+.mainHeader nav ul li a {
+  display: inline;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.mainHeader nav ul li a:hover {
+  color: rgb(0, 195, 255);
+  cursor: pointer;
+}/*# sourceMappingURL=Header.css.map */
